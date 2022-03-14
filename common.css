@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* main content */
+main {
+    flex-grow: 1;
+    background: linear-gradient(to bottom, #e11950 200px, white 0%, white 100%);
+}
+
+
+main .content {
+    width: 85%;
+    margin: 20px auto;
+    min-height: 50vh;
+    background-color: white;
+    display: flex;
+}
+
+main .content aside {
+    width: 30%;
+    padding: 10px;
+}
+
+main .content aside ul {
+    list-style-type: none;
+}
+
+main .content aside ul li {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+main .content aside a {
+    color: black;
+    text-decoration: none;
+}
+
+main .content article {
+    flex-grow: 1;
+}
+/* footer */
+footer {
+    margin-top: auto;
+    height: 50px;
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer end */
+
+/* navbar */
+nav {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+nav .logo {
+    height: 90%;
+    width: 260px;
+    background-image: url(https://www.cambridgeinternational.org/assets/img/CAIE_logo_colour.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .logo span {
+    display: none;
+}
+nav .right-side {
+    margin-left: auto;
+}
+
+nav .right-side a {
+    color: black;
+    margin: 0 10px;
+}
+
+nav .right-side .icon {
+    text-decoration: none;
+}
+
+/* navbar end */
+
+/* ultilites */
+.active {
+    font-weight: bold;
+}
+
+img.full-size {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.title {
+    padding: 10px 0;
+}
