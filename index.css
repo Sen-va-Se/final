@@ -1,0 +1,34 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+.container .card {
+    width: 45%;
+    min-height: 300px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+
+.container .card img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.container .card a, p {
+    padding: 10px;
+}
+
+.container .card a.card-title {
+    color: black;
+    font-size: 1.5em;
+}
+
+.container .card a.read-more:after {
+    content: " >";
+}
+
